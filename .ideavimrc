@@ -1,0 +1,32 @@
+set noerrorbells
+set ignorecase
+set incsearch
+set visualbell
+set clipboard+=unnamed
+set hlsearch
+set scroll=3
+set scrolloff=5 sidescrolloff=10
+
+nnoremap <ESC><ESC> :nohl<CR>
+
+
+"plugin
+
+set surround
+set highlightedyank
+set textobj-entire
+let mapleader=" "
+set easymotion
+set argtextobj
+
+map <leader>s <Plug>(easymotion-bd-f2)
+map <leader>l <Plug>(easymotion-bd-jk)
+
+noremap n nzz
+noremap N Nzz
+noremap * *zz
+noremap # #zz
+
+
+
+map <leader>f <Action>(ReformatCode)
