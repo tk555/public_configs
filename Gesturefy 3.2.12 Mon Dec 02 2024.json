@@ -1,0 +1,241 @@
+{
+  "Gestures": [
+    {
+      "pattern": [
+        [
+          135,
+          7
+        ]
+      ],
+      "command": {
+        "name": "PageBack"
+      }
+    },
+    {
+      "pattern": [
+        [
+          -98,
+          -6
+        ]
+      ],
+      "command": {
+        "name": "PageForth"
+      }
+    },
+    {
+      "pattern": [
+        [
+          56,
+          0
+        ],
+        [
+          6,
+          -10
+        ],
+        [
+          3,
+          -67
+        ]
+      ],
+      "command": {
+        "name": "ScrollBottom",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          151,
+          23
+        ],
+        [
+          4,
+          97
+        ]
+      ],
+      "command": {
+        "name": "ScrollTop",
+        "settings": {
+          "duration": 100
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          0,
+          86
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          126,
+          9
+        ]
+      ],
+      "command": {
+        "name": "CloseTab",
+        "settings": {
+          "nextFocus": "default",
+          "closePinned": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          -10,
+          103
+        ],
+        [
+          -11,
+          6
+        ],
+        [
+          -88,
+          -7
+        ]
+      ],
+      "command": {
+        "name": "NewTab",
+        "settings": {
+          "position": "default",
+          "focus": true
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          -4,
+          -114
+        ],
+        [
+          58,
+          -6
+        ],
+        [
+          60,
+          8
+        ]
+      ],
+      "command": {
+        "name": "FocusLeftTab",
+        "settings": {
+          "cycling": true,
+          "excludeDiscarded": false
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          7,
+          -131
+        ],
+        [
+          -23,
+          -40
+        ],
+        [
+          -147,
+          -10
+        ]
+      ],
+      "command": {
+        "name": "FocusRightTab",
+        "settings": {
+          "cycling": true,
+          "excludeDiscarded": false
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          -1,
+          108
+        ]
+      ],
+      "command": {
+        "name": "ScrollPageUp",
+        "settings": {
+          "duration": 100,
+          "scrollProportion": 95
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          1,
+          -268
+        ]
+      ],
+      "command": {
+        "name": "ScrollPageDown",
+        "settings": {
+          "duration": 100,
+          "scrollProportion": 95
+        }
+      }
+    },
+    {
+      "pattern": [
+        [
+          179,
+          2
+        ],
+        [
+          -105,
+          9
+        ]
+      ],
+      "command": {
+        "name": "ReloadTab",
+        "settings": {
+          "cache": false
+        }
+      }
+    }
+  ],
+  "Settings": {
+    "General": {
+      "theme": "dark"
+    },
+    "Gesture": {
+      "Trace": {
+        "Style": {
+          "lineGrowth": false
+        }
+      },
+      "Command": {
+        "Style": {
+          "fontSize": "3vh"
+        }
+      },
+      "Timeout": {
+        "active": false
+      }
+    },
+    "Rocker": {
+      "active": false,
+      "leftMouseClick": {
+        "name": "ZoomIn",
+        "settings": {
+          "step": ""
+        }
+      },
+      "rightMouseClick": {
+        "name": "ZoomOut",
+        "settings": {
+          "step": ""
+        }
+      }
+    }
+  }
+}
